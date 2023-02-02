@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>资源搜索Part1. | 星楼望道</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://starxicn.github.io/favicon.ico?v=1675300788905">
+<link rel="stylesheet" href="https://starxicn.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="01.绪论
+从古至今， 信息传播的媒介在不断更新换代
+人们产生信息，并通过媒介传播信息，这些信息的传播，构成了一个庞大的集合，构成了如今的互联网
+而搜索，就是能够在这个集合中进行快速查找的工具
+有了这些铺垫，我们能很自然的引出一个观点——信..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://starxicn.github.io">
+        <img src="https://starxicn.github.io/images/avatar.png?v=1675300788905" class="site-logo">
+        <h1 class="site-title">星楼望道</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      温故而知新
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://starxicn.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">资源搜索Part1.</h2>
+            <div class="post-date">2023-02-02</div>
+            
+            <div class="post-content" v-pre>
+              <p>01.绪论</p>
+<p>从古至今， 信息传播的媒介在不断更新换代</p>
+<p>人们产生信息，并通过媒介传播信息，这些信息的传播，构成了一个庞大的集合，构成了如今的互联网</p>
+<p>而搜索，就是能够在这个集合中进行快速查找的工具</p>
+<p>有了这些铺垫，我们能很自然的引出一个观点——<strong>信息产生和传播的核心是人</strong></p>
+<p>我们可以通过搜索来获取信息，同样也可以通过直接找到产生信息的“人”来获取信息</p>
+<p>前者可称为“查找”；而后者，叫做“交流”</p>
+<p>但假若我们想要的信息没有人来创造，那这个信息就不可能会被“搜索”到</p>
+<p>到这里，我们可以知道，信息搜索一个很重要的前提是：<strong>必须要有创造被搜索信息的人</strong></p>
+<p>不管做什么事，前辈们常说的一句话是“多找找百度，你的这个问题肯定有人遇到过”</p>
+<p>那这个问题能够被搜索到，需要满足以下几个条件：</p>
+<p>1.遇到问题这个人会在网上提问/有人专门在网络上探讨过这个问题<br>
+2.这个问题的讨论结果/解决方案被公开在互联网上<br>
+3.这些公开的结果被搜索引擎爬取到</p>
+<p>在现实生活中，一个人同时满足上述三条的概率有多大呢？当然，很小</p>
+<p>现在网上铺天盖地的解答，是因为其对应的用户群体在慢慢变大，就像基因突变一样，再小的概率，放到足够大的群体中，一定可以发生</p>
+<p>举个栗子，大家熟知的油猴脚本，其实在2014年就已经有完善的社区和脚本仓库了，但很多人现在才知道，为什么呢</p>
+<p>原因就在于，做自媒体软件领域的多了，经过许多自媒体博主的推荐，油猴脚本才走进大众视线，人尽皆知</p>
+<p>原本一个小圈子的产物，在经过推广后人尽皆知，这个叫“破圈”。当然，信息在这一步的传播，仍然离不开“人”。</p>
+<p>那再联想一下，现在会编程语言的人越来越多，会不会有更多像油猴脚本一样在小圈子里的工具，没有被大众知晓呢</p>
+<p>这样看来，“搜索”还是存在很大的局限性的。这也恰恰印证了我在开头提出的观点“<strong>信息传播的核心是人</strong>”</p>
+<p>另一个方面，油猴的作者能够做出来这款插件，不也是编程语言普及之后的产物吗？</p>
+<p>信息在人与人之间互相传播并产生新的信息，从而不断丰富互联网这个庞大的集合</p>
+<p>归结在一起，就是“<strong>信息产生和传播的核心是人</strong>”</p>
+<p>在信息搜索的层面来讲，要想拿到一手的信息，比别人更快一步，就必须借助“圈子”的力量</p>
+<p>02<strong>搜索</strong>与<strong>圈子</strong></p>
+<p>这边还是拿软件领域举例子</p>
+<p>所谓圈子，最大的特点就是有自己的特色+人能发声的平台，首先要弄明白，如果要找实用软件，这个搜索需求符合哪些平台的调性，以及如何通过这些平台找到“圈内”的网站和公众号</p>
+<p>形式如论坛，博客，公众号这三类，这里就说一下，如何快速找到和一个圈子有关的网站</p>
+<p>1.用好搜索引擎</p>
+<p>这里直接给出步骤：</p>
+<p>第一步，在搜索中输入“软件博客推荐”，仔细翻一翻会找到“推荐X个下载站点”之类的推荐文章或视频</p>
+<p>第二步，挑选推荐中的其中一个网址，打开微信搜一搜，按“网址 推荐”这个格式输入，例如“ghxi.com 推荐”</p>
+<p>第三步，可以看到更多同类型的网址整合文章</p>
+<figure data-type="image" tabindex="1"><img src="https://starxicn.github.io/post-images/1675297948532.png" alt="" loading="lazy"></figure>
+<p>当然上面这个步骤只是抛砖引玉，原理就是利用搜索引擎搜索关键字的属性</p>
+<p>各个平台的调性也不同，像这种清单类的推荐文章，搜一搜比较擅长，所以第三步选用的是微信搜一搜</p>
+<p>软件圈子目前带头的几个，论坛类：吾爱破解，博客与公众号类：果核，白的夜，小众软件，胡萝卜周，vposy，等</p>
+<p>2.通过内容反向查找</p>
+<p>平时难免会有在网上找各种资源的时候，如果在这中间发现内容讲的比较好的网站，不妨去点到站点首页看看，如果好用就去收藏</p>
+<p>但要提醒的一点是，收藏尽量避坑“xx软件园”之类非博客形式出现，并且文章风格接近营销号标题党的网站，虽然网站做的大，但内容质量难以保证</p>
+<p>3.借助个人收集，整合的导航类站点</p>
+<p>现在也不乏个人创立的软件目录和同类网站整合在一起的聚合导航，还是用上面的方法，就可以找到很多同类型的网站，特点就是收录的网址数量非常多，如果质量够高，基本就可以一劳永逸了</p>
+<p>这里推荐一个Noise导航：www.noisedh.cn</p>
+<figure data-type="image" tabindex="2"><img src="https://starxicn.github.io/post-images/1675297911561.png" alt="" loading="lazy"></figure>
+<p>原本只是一个维格表，后来慢慢发展成了导航和资源综合站点</p>
+<p>分为主页版，博客版和维格表版，三个版本页面上都有互通的通道</p>
+<p>根据网站收录的数量和质量，都是无可比拟的，可以说后半辈子的资源需求都不用愁了</p>
+<p>这里只做抛砖引玉，好好探索就能发现许多好东西</p>
+<p>03.最后的话</p>
+<p>通过刚开始的调研发现，目前中文互联网有关介绍搜索方法的内容，还停留在搜索引擎的搜索命令这种基础知识中，没有深入到思维和底层逻辑这块，所以就想做点不一样的东西出来</p>
+<p>资源搜索这块吧，其实也憋了好长时间才把文章发出来，主要是因为毕竟是自己在把平时用的小技巧框架化之后再整理输出，对于输出内容的表现形式还有整体逻辑难免会有一头雾水的时候</p>
+<p>当然这篇文章涉及到的内容只是冰山一角，未来再这个系列还有好几篇，尽请期待吧</p>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://starxicn.github.io/post/hello-gridea/">
+                  <h3 class="post-title">
+                    Hello Gridea
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
